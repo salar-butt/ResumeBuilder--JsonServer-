@@ -23,8 +23,6 @@ function App() {
         <Route path='/reviewprofile' element={<ReviewProfile/>}/>
         <Route path='/popup' element={<PopupComponent/>}/>
         <Route path='/download' element={<PDFDownload/>}/>
-
-
       </Routes>
     </div>
   );

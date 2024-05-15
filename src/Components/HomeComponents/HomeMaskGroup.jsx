@@ -171,9 +171,10 @@ const HomeMaskGroup = () => {
 
         <div className="flex items-center pt-[20px] gap-[13px]">
           <div className="border border-[#979696] w-[107px]"></div>
-          <p className="text-[12px] text-[#979696] leading-[16px]">
-            or sign up with
-          </p>
+          <Link to="/login">
+          <p className="text-[12px]  leading-[16px] text-[#635EA3] hover:text-[#979696]">
+            or Sign In with
+          </p></Link>
           <div className="border border-[#979696] w-[107px]"></div>
         </div>
         <div className="flex items-center justify-center gap-[14px] pt-[20px]">

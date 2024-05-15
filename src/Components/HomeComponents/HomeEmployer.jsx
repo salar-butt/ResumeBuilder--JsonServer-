@@ -4,7 +4,7 @@ const HomeEmployer = () => {
   return (
     <div className="mt-[40px] flex items-center">
       <img src="/img/employgroup.png" alt="" className="pt-[37px]"/>
-      <div className="pt-[75px] ml-[-20px]">
+      <div className="pt-[75px] ">
         <h2 className="text-[36px] text-[#373737] font-bold leading-6 tracking-tight text-left">
           Employers
         </h2>
