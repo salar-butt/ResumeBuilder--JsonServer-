@@ -5,6 +5,7 @@ import Experience from './Components/Experience';
 import PDFDownload from './Components/PDFDownload';
 import PopupComponent from './Components/Popup';
 import ReviewProfile from './Components/ReviewProfile';
+import Error from './Screens/Error';
 import Home from './Screens/Home';
 import Login from './Screens/Login';
 import './index.css';
@@ -23,6 +24,8 @@ function App() {
         <Route path='/reviewprofile' element={<ReviewProfile/>}/>
         <Route path='/popup' element={<PopupComponent/>}/>
         <Route path='/download' element={<PDFDownload/>}/>
+        <Route path='*' element={<Error/>  }/>
+
       </Routes>
     </div>
   );

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { postjobseekar } from "../../Actions/Action";
 
 const HomeMaskGroup = () => {
+  const navigate=useNavigate()
   const dispatch = useDispatch()
   const [formData, setFormData] = useState({
     name: "",
@@ -37,6 +38,7 @@ const HomeMaskGroup = () => {
         phone: "",
         password: "",
       });
+      navigate("/login");
     } else {
       alert("Please fill in all the required inputs.");
     }
